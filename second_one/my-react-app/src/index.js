@@ -4,24 +4,15 @@ import './index.css';
 import App ,* as Data from './App';
 import reportWebVitals from './reportWebVitals';
 import logo from './logo.svg';
+import Unknown , * as Compo from './utils';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
-    <div>
-      <img src={logo} height='200px' alt="description" />
-      <div><h1>Fun Facts about React</h1></div>
-      <ul>
-        <li>aswin</li>
-        <li>sandeep</li>
-        <li>manoj</li>
-        <li>kerun</li>
-        <li>dhanush</li>
-      </ul>
-    </div>
-    { Data.Testing() }
-    
+    <Unknown />
+    <Compo.SecondComponent/>
+    <Compo.FooterCompent/>
   </React.StrictMode>
 );
 
