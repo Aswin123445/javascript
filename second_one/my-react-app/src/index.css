@@ -11,24 +11,48 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-.fot-font{
-  padding-left: 4vw;
-}
-.List{
-  margin-top: 5vh;
-  margin-left: 20vw;
-}
-.side-bar{
-  display: flex;
-  justify-content: space-around;
-  width: 30vw;
-  margin-top: 3vh;
-  font-size: 1.5rem;
-  font-weight: bold;
-  list-style-type: none;
 
-}
-.parent{
+.navbar{
+  background-color: black;
+  height: 9vh;
+  color: aqua;
   display: flex;
   justify-content: space-between;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.sub1-navbar{
+  display: flex;
+}
+
+.sub2-navbar{
+  color: white;
+  padding-right: 10px;
+  margin-top: 14px;
+}
+.nav-heading{
+  margin-top: 14px;
+}
+
+.bodydiv{
+  height: calc(100vh - 9vh);
+  background-color: rgba(7, 6, 6, 0.899);
+}
+.body-main-heading{
+  color: white;
+  font-size: 2.3rem;
+  font-weight: bold;
+  padding-left: 10vw;
+  padding-top: 9vh;
+}
+.fun_spec_list{
+  color: white;
+  font-size: 1.3rem;
+  padding-left: 13vw;
+}
+.fun_spec_list li::marker{
+  color: rgb(82, 82, 175);
+}
+.fun_spec_list li{
+  padding-top: 10px;
 }

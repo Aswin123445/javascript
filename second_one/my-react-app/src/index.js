@@ -4,15 +4,16 @@ import './index.css';
 import App ,* as Data from './App';
 import reportWebVitals from './reportWebVitals';
 import logo from './logo.svg';
-import Unknown , * as Compo from './utils';
+import { Navbar ,BodyPart ,ListSection} from './utils';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
-    <Unknown />
-    <Compo.SecondComponent/>
-    <Compo.FooterCompent/>
+    <Navbar />
+    <BodyPart> 
+      <ListSection />
+    </BodyPart>
   </React.StrictMode>
 );
 
